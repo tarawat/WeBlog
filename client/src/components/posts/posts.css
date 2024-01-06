@@ -1,0 +1,16 @@
+.posts {
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+}
+.noPostsTitle {
+  text-align: center;
+  justify-content: center;
+  font-family: "Lora", serif;
+  color: #444;
+  display: flex;
+  flex: 9;
+  font-size: 50px;
+}

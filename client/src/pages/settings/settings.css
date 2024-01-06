@@ -1,0 +1,168 @@
+.settings {
+  display: flex;
+}
+.settingsWrapper {
+  flex: 9;
+  padding: 20px;
+}
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.settingsUpdateTitle {
+  color: green;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.settingsDeleteTitle {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid red;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.settingsForm {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  flex-direction: row;
+  height: 100%;
+  max-height: 300px;
+  width: 80%;
+}
+.settingsProfilePic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+.settingsProfilePic > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.settingsProfilePicIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: teal;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+.settingsForm > .formDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  width: 100%;
+}
+.settingsForm > .formDetails > input {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid lightgray;
+}
+.settingsForm > .formDetails > textarea {
+  color: gray;
+  margin: 10px 0;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.userDetails {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  font-size: 25px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-transform: capitalize;
+}
+.userBio {
+  color: gray;
+  margin: 10px 0;
+  font-size: 25px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-transform: capitalize;
+}
+.settingsForm > .formDetails > input:focus,
+.settingsForm > .formDetails > textarea:focus {
+  outline: none;
+}
+.settingsSubmit {
+  width: 150px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.settingsPost {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.titleHeader {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #e4e4e4;
+  padding: 0.25rem;
+  margin: 10px;
+  border-radius: 99px;
+}
+.titleHeaderItem {
+  margin: 5px;
+  transition: 0.5s;
+}
+.cp-btn.active {
+  background: linear-gradient(90deg, #f46d9c 0%, #ffa5a5 100%) !important;
+  transition: 0.5s;
+}
+.cp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 200px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 99px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+}

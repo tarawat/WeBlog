@@ -1,0 +1,107 @@
+.top {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "josefin sans", sans-serif;
+  z-index: 999;
+  box-shadow: 0 0 10px black;
+}
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topCenter {
+  flex: 6;
+}
+.brandLogo{
+  height: 70px;
+}
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+.topImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+}
+.topList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.topListItem {
+  margin: 7px 20px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(79, 79, 79);
+  cursor: pointer;
+}
+.topListItem:hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  
+  cursor: pointer;
+  margin-left: 15px;
+}
+.catHeading {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lora", serif;
+  color: #444;
+}
+.catForm {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.catForm > input {
+  font-size: 20px;
+  padding: 15px;
+  width: 50vw;
+  border-radius: 7px;
+  border: 1px solid rgb(177, 177, 177);
+}
+.catSubmit {
+  width: 80px;
+  color: #fff;
+  background-color: teal;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.closeBTN{
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   border: none;
+   background: transparent;
+   cursor: pointer;
+   padding: 5px;
+}
